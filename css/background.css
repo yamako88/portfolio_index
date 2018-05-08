@@ -1,0 +1,98 @@
+#rect {
+  position: fixed;
+  width: 100%;
+  height: 1000px;
+  z-index: 0;
+  margin-top: 0px;
+  background-color: #FFF4E0;
+}
+
+.shapes{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 400px;
+}
+
+.triangle1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+
+  animation: drift 15000ms infinite linear;
+  animation-direction:alternate;
+}
+
+.waves1 {
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  animation: drift 14000ms infinite linear;
+}
+
+.hexa {
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  animation: drift 16000ms infinite linear;
+  animation-direction:alternate;
+}
+
+.circle{
+  display: inline-block;
+  position: absolute;
+  top: 99%;
+  left: 30%;
+  width: 60px;
+  height: 60px;
+  text-align:center;
+  line-height: 80px;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: solid 1.5px #7be7d7;
+}
+
+.triangle {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  animation: drift 16000ms infinite linear;
+
+}
+
+.circle1 {
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  left: 85%;
+  width: 80px;
+  height: 80px;
+  text-align:center;
+  line-height: 80px;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: solid 1.5px #7be7d7;
+}
+
+.circle2 {
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  width: 30px;
+  height: 30px;
+  text-align:center;
+  line-height: 80px;
+  vertical-align: middle;
+  /*border-radius: 50%;*/
+  border: solid 1.5px #7be7d7;
+  animation: drift 16000ms infinite linear;
+  animation-direction:alternate;
+}
+
+.waves2 {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  animation: drift 14000ms infinite linear;
+}
